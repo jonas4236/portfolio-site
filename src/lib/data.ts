@@ -110,7 +110,7 @@ export const dataProject = [
     repoId: "1",
     repoImage: SARP,
     repoDemo: "",
-    repoGithub: "https://github.com/jonas4236/markethub-ecommerce",
+    repoGithub: "https://github.com/jonas4236/SARP-Project",
   },
   {
     id: 2,
@@ -156,8 +156,8 @@ export const dataProject = [
     ],
     repoId: "1",
     repoImage: Bookshop,
-    repoDemo: "https://youtu.be/0vHPQHUox8E?si=lIZy1MbcUCnxjQ8N",
-    repoGithub: "https://github.com/jonas4236/markethub-ecommerce",
+    repoDemo: "https://youtu.be/0vHPQHUox8E?si=t1pINkgfIDvcpHZY",
+    repoGithub: "https://github.com/jonas4236/fullstack-bookshop",
   },
 ];
 

@@ -44,10 +44,12 @@ const Header = () => {
             with me.
           </p>
           <div className="flex items-center justify-center">
-            <button className="inline-flex mr-8 h-12 animate-shimmer items-center justify-center rounded-md border-2 outline-none border-white bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-white transition-colors hover:text-white/50">
-              <MdOutgoingMail className="mr-2" size={30} />
-              Contact Me
-            </button>
+            <Link to={"/#contact"}>
+              <button className="inline-flex mr-8 h-12 animate-shimmer items-center justify-center rounded-md border-2 outline-none border-white bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-white transition-colors hover:text-white/50">
+                <MdOutgoingMail className="mr-2" size={30} />
+                Contact Me
+              </button>
+            </Link>
             <Link to={"https://github.com/jonas4236"}>
               <button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border-2 outline-none border-white bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-white transition-colors hover:text-white/50">
                 <RiGithubLine className="mr-2" size={30} />
